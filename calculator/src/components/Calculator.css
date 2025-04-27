@@ -1,0 +1,36 @@
+.calculator {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .calculator input {
+    margin: 5px;
+    padding: 10px;
+    width: 45%;
+    font-size: 16px;
+  }
+  
+  .calculator button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .instruktion {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
