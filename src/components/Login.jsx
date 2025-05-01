@@ -13,7 +13,7 @@ function Login() {
         body: JSON.stringify({ username, password }),
       });
 
-      const token = await res.text(); // ← API:t returnerar token som ren text
+      const token = await res.text(); 
       console.log("TOKEN FRÅN API:", token);
 
       if (res.ok && token) {
